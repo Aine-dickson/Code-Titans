@@ -9,27 +9,27 @@ Code Titans is a blogging platform for computer science students to share their 
 - [License](#License)
 
 ## Features
-User authentication and authorization for creating and managing posts
-CRUD functionality for posts and comments
-Markdown support for writing posts
-Search functionality for finding posts by title, author, or keyword
-Pagination for organizing posts into pages
+- User authentication and authorization for creating and managing posts
+- CRUD functionality for posts and comments
+- Markdown support for writing posts
+- Search functionality for finding posts by title, author, or keyword
+- Pagination for organizing posts into pages
 
 ## Technologies Used
-Vue.js for the frontend
-Tailwind CSS for styling
-Express.js for the backend
-MongoDB for the database
+- Vue.js for the frontend
+- Tailwind CSS for styling
+- Express.js for the backend
+- MongoDB for the database
 
 ## Installation
 To install and run this project on your local machine, follow these steps:
-Clone the repository to your local machine 'git clone https://github.com/aine-dickson/Code-Titans.git'
-Install the dependencies for the frontend and backend:
+- Clone the repository to your local machine 'git clone https://github.com/aine-dickson/Code-Titans.git'
+- Install the dependencies for the frontend and backend:
 cd code-titans
 npm install
 cd server
 npm install
-Create a .env file in the root directory of the project and set the following environment variables:
+- Create a .env file in the root directory of the project and set the following environment variables:
 DB_URI=<your-mongodb-uri>
 JWT_SECRET=<your-jwt-secret>
 
